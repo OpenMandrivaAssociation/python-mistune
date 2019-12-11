@@ -1,7 +1,7 @@
 Summary:	Markdown parser in pure Python with renderer features
 Name:		python-mistune
 Version:	0.8.4
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/mistune/
