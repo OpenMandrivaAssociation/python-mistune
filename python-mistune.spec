@@ -24,7 +24,7 @@ Markdown parser in pure Python with renderer features
 
 %prep
 %setup -qn mistune-%{version}
-%apply_patches
+%autopatch -p1
 
 mkdir python2
 mv `ls |grep -v python2` python2
