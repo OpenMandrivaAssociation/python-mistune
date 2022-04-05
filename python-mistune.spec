@@ -8,6 +8,7 @@ Url:		https://pypi.org/project/mistune/
 Source0:	https://files.pythonhosted.org/packages/source/m/mistune/mistune-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-wheel
+BuildRequires:	python-pip
 BuildArch:	noarch
 
 %description
