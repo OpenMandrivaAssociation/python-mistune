@@ -3,7 +3,7 @@ Name:		python-mistune
 # Please don't update to >= 2.0.0 until python-m2r can work
 # with newer versions.
 Version:	0.8.4
-Release:	1
+Release:	4
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/mistune/
