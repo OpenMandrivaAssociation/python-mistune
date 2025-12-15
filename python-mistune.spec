@@ -11,6 +11,7 @@ Source0:	https://files.pythonhosted.org/packages/source/m/mistune/mistune-%{vers
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-wheel
 BuildRequires:	python-pip
+BuildRequires:  python-setuptools
 BuildArch:	noarch
 
 %description
