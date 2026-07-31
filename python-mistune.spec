@@ -2,8 +2,8 @@ Summary:	Markdown parser in pure Python with renderer features
 Name:		python-mistune
 # Please don't update to >= 2.0.0 until python-m2r can work
 # with newer versions.
-Version:	0.8.4
-Release:	7
+Version:	3.3.4
+Release:	1
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/mistune/
@@ -18,7 +18,7 @@ BuildArch:	noarch
 Markdown parser in pure Python with renderer features
 
 %prep
-%autosetup -p1 -n mistune-%{version}
+%autosetup -p1 -n mistune-3.3.4
 
 %build
 mkdir wheels
