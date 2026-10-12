@@ -28,7 +28,6 @@ pip wheel --wheel-dir wheels --no-deps --no-build-isolation --verbose .
 pip install --root=%{buildroot} --no-deps --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links wheels wheels/*.whl
 
 %files
-%defattr(0644,root,root,0755)
-%{py_sitedir}/mistune.py
-%{py_sitedir}/__pycache__/*
-%{py_sitedir}/*.dist-info
+%{_bindir}/mistune
+%{py_sitedir}/mistune
+%{py_sitedir}/mistune-%{version}.dist-info
